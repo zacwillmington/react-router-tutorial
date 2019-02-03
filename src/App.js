@@ -2,9 +2,11 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+
 import HomePage from './components/HomePage';
 import AboutPage from './components/AboutPage';
 import ContactPage from './components/ContactPage';
+import NavBar from './components/NavBar';
 
 
 class App extends Component {
@@ -25,7 +27,7 @@ class App extends Component {
         <NavBar />
         <HomePage />
         <AboutPage />
-        <ContactPage />
+        <ContactPage /> 
       </div>
     );
   }
