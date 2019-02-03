@@ -22,6 +22,7 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        <NavBar />
         <HomePage />
         <AboutPage />
         <ContactPage />
