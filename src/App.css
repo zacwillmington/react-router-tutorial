@@ -30,3 +30,8 @@
     transform: rotate(360deg);
   }
 }
+
+.AboutPage, .ContactPage, .HomePage {
+  margin: 5%;
+  padding: 20px;
+}
