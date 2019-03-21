@@ -11,7 +11,9 @@ const HomePage = props => {
 
             Small batch intelligentsia master cleanse, green juice hammock chambray schlitz ethical tousled ennui chia mlkshk literally whatever. Venmo slow-carb affogato pinterest chicharrones, live-edge cred vape succulents chia aesthetic keffiyeh. Street art roof party 90's celiac. Activated charcoal bicycle rights banjo craft beer chambray.
             </p>
-        </div>
+        </div> 
+        // comment
+        
     );
 };
 
