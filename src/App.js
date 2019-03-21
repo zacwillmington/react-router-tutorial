@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-
-
 import HomePage from './components/HomePage';
 import AboutPage from './components/AboutPage';
 import ContactPage from './components/ContactPage';
 import NavBar from './components/NavBar';
-
+import { Route } from 'react-router-dom';
 
 class App extends Component {
   render() {
@@ -25,9 +23,9 @@ class App extends Component {
           </a>
         </header>
         <NavBar />
-        <HomePage />
-        <AboutPage />
-        <ContactPage /> 
+        <Route exact path='/' component={HomePage} />
+        <Route exact path='/About' component={AboutPage} />
+        <Route exact path='/Contact' component={ContactPage} />
       </div>
     );
   }
